@@ -1,4 +1,4 @@
-/* Generale */
+/* General */
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +7,18 @@
 
 ul{
     list-style-type: none;
+}
+
+.width{
+    width: 70%;
+}
+
+.white{
+    background-color: white;
+}
+
+.grey{
+    background-color: rgba(210,210,210,255);
 }
 /* Header */
 header{
@@ -23,7 +35,6 @@ header{
 
 #navContainer > div{
     background-color: rgba(220,165,29,255);
-    width: 70%;
     display: flex;
     padding: 5px;
 }
@@ -62,8 +73,8 @@ header{
     justify-content: flex-end;
     align-items: center;
 }
-/* Secondo blocco Header */
-#secondoBlocco{
+/* Second Block Header */
+#secondBlock{
     background-color: rgba(0,0,139,255);
     padding: 30px 0;
     display: flex;
@@ -71,8 +82,36 @@ header{
     align-items: center;
 }
 
-#secondoBlocco > div{
+#secondBlock > div{
     height: 300px;
     background-color: rgba(238,130,238,255);
     width: 50%;
+}
+/* Main */
+.section{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section > div{
+    display: flex;
+}
+
+.azzurro{
+    height: 300px;
+    width: 60%;
+    background-color: rgba(30,145,255,255);
+}
+
+.pink{
+    height: 300px;
+    width: 40%;
+    background-color: rgba(255,201,213,255);
+}
+
+#containerSection4{
+    height: 500px;
+    background-color: rgba(34,139,34,255);
 }
